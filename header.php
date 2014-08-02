@@ -29,9 +29,9 @@
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
   <![endif]-->
-  <link href="<?php echo get_template_directory_uri(); ?>/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="<?php echo get_template_directory_uri(); ?>/css/font.css" rel="stylesheet" type="text/css">
-  <link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet" type="text/css">
+  <link href="<?php printf ( get_template_directory_uri() ); ?>/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="<?php printf ( get_template_directory_uri() ); ?>/css/font.css" rel="stylesheet" type="text/css">
+  <link href="<?php printf ( get_template_directory_uri() ); ?>/style.css" rel="stylesheet" type="text/css">
 
   <?php wp_head(); ?>
 </head>
@@ -40,19 +40,19 @@
   <section class="main-section">
     <header class="website-header">
       <?php if ( get_header_image() ) : ?>
-        <a href="<?php echo get_option('home'); ?>">
-          <img class="img-circle website-cover" src="<?php echo esc_url( get_header_image() ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" width="200">
+        <a href="<?php printf ( get_option('home') ); ?>">
+          <img class="img-circle website-cover" src="<?php printf ( esc_url( get_header_image() ) ); ?>" alt="<?php printf ( esc_attr( get_bloginfo( 'name', 'display' ) ) ); ?>" width="200">
         </a>
 		  <?php endif; ?>
 
 
-      <a href="<?php echo get_option('home'); ?>">
+      <a href="<?php printf ( get_option('home') ); ?>">
         <h1 class="website-name">
-          <?php echo get_bloginfo( 'name', 'display' ) ?>
+          <?php printf ( get_bloginfo( 'name', 'display' ) ); ?>
         </h1>
       </a>
       <p class="website-description">
-        <?php echo esc_attr( get_bloginfo( 'description', 'display' ) ); ?>
+        <?php printf ( esc_attr( get_bloginfo( 'description', 'display' ) ) ); ?>
       </p>
 
       <ul class="list-unstyled pages-list">

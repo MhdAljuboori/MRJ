@@ -63,7 +63,7 @@
   		}
   	}
 
-  	echo 'itemscope="itemscope" itemtype="' . $schema . $type . '"';
+  	printf ( 'itemscope="itemscope" itemtype="' . $schema . $type . '"' );
   }
 
 
@@ -146,10 +146,10 @@
   	    <div id="div-comment-<?php comment_ID() ?>" class="comment-body">
 
     	    <div class="comment-author vcard">
-          	<?php if ( $args['avatar_size'] != 0 ) echo get_avatar( $comment, $args['avatar_size'] ); ?>
+          	<?php if ( $args['avatar_size'] != 0 ) printf ( get_avatar( $comment, $args['avatar_size'] ) ); ?>
           	<?php printf( __( '<cite class="author-name">%s</cite>:', 'mrj' ), get_comment_author_link() ); ?>
           	<small class="vsmall">
-          	  <a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ); ?>">
+          	  <a href="<?php printf ( htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ); ?>">
           		  <?php
             			/* translators: 1: date, 2: time */
             			printf( __( '%1$s at %2$s', 'mrj' ), get_comment_date(),  get_comment_time() );

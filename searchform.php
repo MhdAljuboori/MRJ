@@ -7,8 +7,8 @@
  */
 ?>
 
-<form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
+<form role="search" method="get" class="search-form" action="<?php printf ( get_option('home') ); ?>">
   <div class="form-group">
-		<input type="search" class="form-control search-field" placeholder="<? __( 'Search...', 'mrj' ); ?>" value="" name="s" title="<? __( 'Search for:', 'mrj' ); ?>" />
+    <input type="search" class="form-control search-field" placeholder="<?php printf ( __( 'Search...', 'mrj' ) ); ?>" value="" name="s" title="<?php printf ( __( 'Search for:', 'mrj' ) ); ?>" />
   </div>
 </form>

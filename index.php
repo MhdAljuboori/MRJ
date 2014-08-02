@@ -32,10 +32,10 @@
         <?php endif; ?>
         <div class="posts-nav">
           <div class="pull-right">
-          <?php echo get_next_posts_link(); ?>
+          <?php printf ( get_next_posts_link() ); ?>
           </div>
           <div>
-          <?php echo get_previous_posts_link(); ?>
+          <?php printf ( get_previous_posts_link() ); ?>
           </div>
         </div>
       </div>

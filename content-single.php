@@ -9,14 +9,14 @@
   <h1><?php the_title(); ?></h1>
   <div class="article-footer">
     <?php edit_post_link( __( 'Edit', 'mrj' )); ?>
-    <a href="#comments"><? echo __( 'Comment', 'mrj' ) ?> </a>
+    <a href="#comments"><?php printf ( __( 'Comment', 'mrj' ) ); ?> </a>
   </div>
   <?php if (has_post_thumbnail() ): ?>
     <?php
     $domsxe = simplexml_load_string(get_the_post_thumbnail());
     $thumbnailsrc = $domsxe->attributes()->src;
     ?>
-    <div class="article-cover" style="background-image: url(<?php echo $thumbnailsrc ?>)"></div>
+    <div class="article-cover" style="background-image: url(<?php printf ( $thumbnailsrc ); ?>)"></div>
   <?php endif; ?>
   <p>
     <?php the_content(); ?>
@@ -25,8 +25,8 @@
   <div class="article-separator"></div>
 
   <?php if (get_the_tag_list()) : ?>
-    <h4><?php echo __( 'Tags:', 'mrj' ); ?></h4>
-    <?php echo get_the_tag_list('<ul class="list-unstyled tags-list"><li>','</li><li>','</li></ul>'); ?>
+    <h4><?php printf ( __( 'Tags:', 'mrj' ) ); ?></h4>
+    <?php printf ( get_the_tag_list('<ul class="list-unstyled tags-list"><li>','</li><li>','</li></ul>') ); ?>
   <?php endif; ?>
 
   <div class="article-separator"></div>
@@ -37,6 +37,6 @@
     ob_start();
     comment_form( mrj_comment_form_args() );
     $form = ob_get_clean();
-    echo str_replace('id="submit"','class="btn btn-success"', $form);
+    echo str_replace('id="submit"', 'class="btn btn-success"', $form);
   ?>
 </article>

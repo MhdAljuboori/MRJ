@@ -9,7 +9,7 @@
   <h1><?php the_title(); ?></h1>
   <div class="article-footer">
     <?php edit_post_link( __( 'Edit', 'mrj' )); ?>
-    <a href="#comments"><? echo __( 'Comment', 'mrj' ) ?></a>
+    <a href="#comments"><?php printf ( __( 'Comment', 'mrj' ) ); ?></a>
   </div>
   <p>
     <?php the_content(); ?>
@@ -22,6 +22,6 @@
     ob_start();
     comment_form( mrj_comment_form_args() );
     $form = ob_get_clean();
-    echo str_replace('id="submit"','class="btn btn-success"', $form);
+    echo str_replace('id="submit"', 'class="btn btn-success"', $form);
   ?>
 </article>
