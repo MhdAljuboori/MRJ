@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mrj\n"
+"POT-Creation-Date: 2014-08-02 19:14+0200\n"
+"PO-Revision-Date: 2014-08-02 19:17+0200\n"
+"Last-Translator: Mohammed Aljuboori <mhdaljobory@gmail.com>\n"
+"Language-Team: \n"
+"Language: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /opt/lampp/htdocs/mrj/wp-content/themes/mrj\n"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/search.php:12
+#, php-format
+msgid "Search Result For: %s"
+msgstr "نتائج البحث لـ %s"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/search.php:28
+msgid "No Results Found :("
+msgstr "لا توجد نتائج بحث :("
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/search.php:36
+msgid "Tag Cloud:"
+msgstr "غيمة الوسوم:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/search.php:41
+msgid "Recent Posts:"
+msgstr "آخر التدوينات:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/search.php:52
+msgid "Categories:"
+msgstr "التصنيفات:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-page.php:11
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:11
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:22
+msgid "Edit"
+msgstr "تعديل"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-page.php:12
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:91
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:12
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:23
+msgid "Comment"
+msgstr "تعليق"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:86
+msgid "Leave a Comment"
+msgstr "اترك تعليقا"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:87
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "اترك ردا لـ %s"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:88
+msgid "Cancel Reply"
+msgstr "إلغ الرد"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:89
+msgid "Post Comment"
+msgstr "اترك تعليقا"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:97
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "يجب أن تقوم <a href=\"%s\">بتسجيل الدخول</a> لتترك تعليقا."
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:103
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"مسجل باسم <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"سجل الخروج من "
+"هذا الحساب\">تسجيل خروج؟</a>"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:117
+msgid "Name"
+msgstr "الاسم"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:120
+msgid "Your Name"
+msgstr "اسمك"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:123
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:126
+msgid "Your Email"
+msgstr "بريدك الإلكتروني"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:130
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:132
+msgid "Your Website"
+msgstr "موقعك الإلكتروني"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:150
+#, php-format
+msgid "<cite class=\"author-name\">%s</cite>:"
+msgstr "<cite class=\"author-name\">%s</cite>:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:155
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s في %2$s"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:158
+msgid "(Edit)"
+msgstr "(تعديل)"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:162
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك ينتظر موافقة المدير"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:175
+msgid "Leave a Reply"
+msgstr "اترك ردا"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/searchform.php:12
+msgid "Search..."
+msgstr "بحث..."
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/searchform.php:12
+msgid "Search for:"
+msgstr "ابحث عن:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/footer.php:12
+msgid "empowered by"
+msgstr "يستخدم"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:27
+msgid "Tags:"
+msgstr "الوسوم:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:19
+msgid "More"
+msgstr "المزيد"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:23
+msgid "1 Comment"
+msgstr "تعليق واحد"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:23
+msgid "% Comments"
+msgstr "% تعليق"
+
+#, fuzzy
+#~ msgid "Leave Reply"
+#~ msgstr "اترك رداً"
