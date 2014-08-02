@@ -1,3 +1,5 @@
+<?php load_theme_textdomain( 'mrj', get_template_directory() . '/languages' ); ?>
+
 <?php
 
   /**
@@ -81,24 +83,24 @@
       'id_form'           => 'commentform',
       'id_submit'         => 'submit',
       'title_reply'       => '',
-      'title_reply'       => __( 'Leave a Reply' ),
-      'title_reply_to'    => __( 'Leave a Reply to %s' ),
-      'cancel_reply_link' => __( 'Cancel Reply' ),
-      'label_submit'      => __( 'Post Comment' ),
+      'title_reply'       => __( 'Leave a Comment', 'mrj' ),
+      'title_reply_to'    => __( 'Leave a Reply to %s', 'mrj' ),
+      'cancel_reply_link' => __( 'Cancel Reply', 'mrj' ),
+      'label_submit'      => __( 'Post Comment', 'mrj' ),
 
-      'comment_field' =>  '<div class="form-group"><label for="comment" class="control-label">' . _x( 'Comment', 'noun' ) .
+      'comment_field' =>  '<div class="form-group"><label for="comment" class="control-label">' . __( 'Comment', 'mrj' ) .
         '</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true" class="form-control">' .
         '</textarea></div>',
 
       'must_log_in' => '<p class="must-log-in">' .
         sprintf(
-          __( 'You must be <a href="%s">logged in</a> to post a comment.' ),
+          __( 'You must be <a href="%s">logged in</a> to post a comment.', 'mrj' ),
           wp_login_url( apply_filters( 'the_permalink', get_permalink() ) )
         ) . '</p>',
 
       'logged_in_as' => '<p class="logged-in-as">' .
         sprintf(
-        __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>' ),
+        __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>', 'mrj' ),
           admin_url( 'profile.php' ),
           $user->display_name,
           wp_logout_url( apply_filters( 'the_permalink', get_permalink( ) ) )
@@ -145,26 +147,35 @@
 
     	    <div class="comment-author vcard">
           	<?php if ( $args['avatar_size'] != 0 ) echo get_avatar( $comment, $args['avatar_size'] ); ?>
-          	<?php printf( __( '<cite class="author-name">%s</cite>:' ), get_comment_author_link() ); ?>
+          	<?php printf( __( '<cite class="author-name">%s</cite>:', 'mrj' ), get_comment_author_link() ); ?>
           	<small class="vsmall">
           	  <a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ); ?>">
           		  <?php
             			/* translators: 1: date, 2: time */
-            			printf( __('%1$s at %2$s'), get_comment_date(),  get_comment_time() );
+            			printf( __( '%1$s at %2$s', 'mrj' ), get_comment_date(),  get_comment_time() );
             		?>
         			</a>
-        			<?php edit_comment_link( __( '(Edit)' ), '  ', '' );?>
+        			<?php edit_comment_link( __( '(Edit)', 'mrj' ), '  ', '' );?>
           	</small>
     	    </div>
         	<?php if ( $comment->comment_approved == '0' ) : ?>
-        		<em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.' ); ?></em>
+        		<em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'mrj' ); ?></em>
         		<br />
         	<?php endif; ?>
 
     	    <?php comment_text(); ?>
 
         	<div class="reply">
-        	  <?php comment_reply_link( array_merge( $args, array( 'depth' => $depth, 'max_depth' => $args['max_depth'] ) ) ); ?>
+        	  <?php comment_reply_link(
+              array_merge(
+                $args,
+                array(
+                  'depth' => $depth,
+                  'max_depth' => $args['max_depth'],
+                  'reply_text' => __( 'Leave a Reply', 'mrj' )
+                )
+              ));
+            ?>
         	</div>
 
     	</div>

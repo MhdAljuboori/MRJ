@@ -9,7 +9,7 @@
 
     <div class="main-content">
       <div class="website-content">
-        <h1><?php printf( __( 'Search Result For: %s' ), '<span>"' . get_search_query() . '"</span>' ); ?></h1>
+        <h1><?php printf( __( 'Search Result For: %s', 'mrj' ), '<span>"' . get_search_query() . '"</span>' ); ?></h1>
         <div class="search-result">
           <?php if ( have_posts() ) : ?>
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -25,7 +25,7 @@
             <?php endwhile; endif; ?>
           <?php else: ?>
           <h2>
-            <?php printf( __( 'No Results Found :(' ) ) ?>
+            <?php printf( __( 'No Results Found :(', 'mrj' ) ) ?>
           </h2>
           <?php endif; ?>
         </div>
@@ -33,12 +33,12 @@
         <br>
 
         <div class="tagcloud-block">
-          <h3><? printf( __( 'Tag Cloud:' ) ) ?></h3>
+          <h3><? printf( __( 'Tag Cloud:', 'mrj' ) ) ?></h3>
           <?php wp_tag_cloud(); ?>
         </div>
         <br>
 
-        <h3><? printf( __( 'Recent Posts:' ) ) ?></h3>
+        <h3><? printf( __( 'Recent Posts:', 'mrj' ) ) ?></h3>
         <ul>
           <?php
           	$recent_posts = wp_get_recent_posts();
@@ -49,7 +49,7 @@
         </ul>
         <br>
 
-        <h3><? printf( __( 'Categories:' ) ) ?></h3>
+        <h3><? printf( __( 'Categories:', 'mrj' ) ) ?></h3>
         <ul>
           <?php wp_list_categories('title_li=0'); ?>
         </ul>

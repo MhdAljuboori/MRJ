@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mrj\n"
+"POT-Creation-Date: 2014-08-02 19:22+0200\n"
+"PO-Revision-Date: 2014-08-02 19:24+0200\n"
+"Last-Translator: Mohammed Aljuboori <mhdaljobory@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /opt/lampp/htdocs/mrj/wp-content/themes/mrj\n"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/search.php:12
+#, php-format
+msgid "Search Result For: %s"
+msgstr "Search Result For: %s"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/search.php:28
+msgid "No Results Found :("
+msgstr "No Results Found :("
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/search.php:36
+msgid "Tag Cloud:"
+msgstr "Tag Cloud:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/search.php:41
+msgid "Recent Posts:"
+msgstr "Recent Posts:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/search.php:52
+msgid "Categories:"
+msgstr "Categories:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-page.php:11
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:11
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:22
+msgid "Edit"
+msgstr "Edit"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-page.php:12
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:91
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:12
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:23
+msgid "Comment"
+msgstr "Comment"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:86
+msgid "Leave a Comment"
+msgstr "Leave a Comment"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:87
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Leave a Reply to %s"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:88
+msgid "Cancel Reply"
+msgstr "Cancel Reply"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:89
+msgid "Post Comment"
+msgstr "Post Comment"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:97
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "You must be <a href=\"%s\">logged in</a> to post a comment."
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:103
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:117
+msgid "Name"
+msgstr "Name"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:120
+msgid "Your Name"
+msgstr "Your Name"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:123
+msgid "Email"
+msgstr "Email"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:126
+msgid "Your Email"
+msgstr "Your Email"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:130
+msgid "Website"
+msgstr "Website"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:132
+msgid "Your Website"
+msgstr "Your Website"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:150
+#, php-format
+msgid "<cite class=\"author-name\">%s</cite>:"
+msgstr "<cite class=\"author-name\">%s</cite>:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:155
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:158
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:162
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:175
+msgid "Leave a Reply"
+msgstr "Leave a Reply"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/searchform.php:12
+msgid "Search..."
+msgstr "Search..."
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/searchform.php:12
+msgid "Search for:"
+msgstr "Search for:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/footer.php:12
+msgid "empowered by"
+msgstr "empowered by"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:28
+msgid "Tags:"
+msgstr "Tags:"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:19
+msgid "More"
+msgstr "More"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:23
+msgid "1 Comment"
+msgstr "1 Comment"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:23
+msgid "% Comments"
+msgstr "% Comments"

@@ -9,7 +9,7 @@
 ?>
 
   <footer>
-    <p><a href="http://mrj.mhdaljuboori.me">MRJ</a> <?php __('empowered by'); ?> <a href="http://wordpress.org">WordPress</a>
+    <p><a href="http://mrj.mhdaljuboori.me">MRJ</a> <?php echo __('empowered by', 'mrj'); ?> <a href="http://wordpress.org">WordPress</a>
     </p>
   </footer>
 

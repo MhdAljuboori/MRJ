@@ -9,6 +9,6 @@
 
 <form role="search" method="get" class="search-form" action="<?php echo home_url( '/' ); ?>">
   <div class="form-group">
-		<input type="search" class="form-control search-field" placeholder="<? __('Search...'); ?>" value="" name="s" title="<? __('Search for:'); ?>" />
+		<input type="search" class="form-control search-field" placeholder="<? __( 'Search...', 'mrj' ); ?>" value="" name="s" title="<? __( 'Search for:', 'mrj' ); ?>" />
   </div>
 </form>

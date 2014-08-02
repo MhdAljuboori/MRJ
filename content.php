@@ -16,11 +16,11 @@
   <?php endif; ?>
   <p>
     <?php echo wp_trim_words( get_the_excerpt(), 100, null ); ?>
-    <a href="<?php the_permalink(); ?>"><? __( 'More' ) ?></a>
+    <a href="<?php the_permalink(); ?>"><? __( 'More', 'mrj' ) ?></a>
   </p>
   <div class="article-footer">
-    <?php edit_post_link( __( 'Edit' )); ?>
-    <?php comments_popup_link( __( 'Comment' ), __( '1 Comment' ), __( '% Comments' ) ); ?>
+    <?php edit_post_link( __( 'Edit', 'mrj' )); ?>
+    <?php comments_popup_link( __( 'Comment', 'mrj' ), __( '1 Comment', 'mrj' ), __( '% Comments', 'mrj' ) ); ?>
   </div>
   <div class="article-separator"></div>
 </article>

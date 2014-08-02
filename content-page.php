@@ -8,8 +8,8 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <h1><?php the_title(); ?></h1>
   <div class="article-footer">
-    <?php edit_post_link( __( 'Edit' )); ?>
-    <a href="#comments"><? echo __( 'Comment') ?></a>
+    <?php edit_post_link( __( 'Edit', 'mrj' )); ?>
+    <a href="#comments"><? echo __( 'Comment', 'mrj' ) ?></a>
   </div>
   <p>
     <?php the_content(); ?>
