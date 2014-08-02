@@ -1,0 +1,64 @@
+
+
+.website-header
+{
+    float: right;
+    padding-right: 15px;
+}
+
+.sidebar-content
+{
+    padding-left: 0px;
+    padding-right: 15px;
+    float: right;
+}
+
+.website-content
+{
+    float: left;
+    margin-right: 0;
+    margin-left: 1%;
+}
+
+body
+{
+    direction: rtl;
+    font-family: Droid Arabic Naskh;
+}
+
+.pages-list
+{
+    padding-right: 0px;
+    font-family: Droid Arabic Kufi;
+}
+
+.website-name
+{
+    font-family: Droid Arabic Kufi;
+}
+
+.sidebar-content h3
+{
+    font-family: Droid Arabic Kufi;
+}
+
+.article-title
+{
+    font-family: Droid Arabic Kufi;
+}
+
+.article-footer > a
+{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.comments
+{
+    padding-right: 0;
+}
+
+article h1
+{
+    font-family: Droid Arabic Kufi;
+}

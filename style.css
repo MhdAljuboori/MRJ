@@ -1,0 +1,277 @@
+/*
+Theme Name: MRJ
+Theme URI: http://mrj.mhdaljuboori.me
+Author: Mohammed Aljuboori
+Author URI: http://mhdaljuboori.me/
+Description: Modern design. Theme for WordPress.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: green, white, light, two-columns, right-sidebar, responsive-layout, custom-header, editor-style, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, accessibility-ready
+Text Domain: mrj
+
+This theme is licensed under the GPL.
+*/
+
+body
+{
+  background-color: #d9d9d9;
+  font-family: ubunturegular;
+}
+
+.main-section
+{
+  padding-top: 80px;
+}
+
+.website-header
+{
+  width: 33.33%;
+  float: left;
+  text-align: center;
+}
+
+.website-content
+{
+  width: 65%;
+  float: right;
+  background-color: #f7f7f7;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 3px 3px 0px 0px;
+  margin-right: 1%;
+  min-height: 500px;
+}
+
+.website-cover
+{
+  border: solid 5px #32A879;
+}
+
+.website-name
+{
+  color: #32A879;
+  font-weight: bold;
+}
+
+.website-description
+{
+  color: #626262;
+}
+
+.sidebar-content
+{
+  width: 33.33%;
+  float: left;
+  padding-left: 15px;
+}
+
+.article-cover
+{
+  width: 85%;
+  border-radius: 3px;
+  background-image: url('./images/Boston%20City%20Flow.jpg');
+  background-position: 50% 50%;
+  background-size: 100%;
+  height: 200px;
+  margin: 20px auto;
+}
+
+a
+{
+  -webkit-transition: color 500ms ease;
+  -o-transition: color 500ms ease;
+  transition: color 500ms ease;
+  color: #8b8b8b;
+}
+
+a:hover
+{
+  color: #666666;
+}
+
+.article-footer > a
+{
+  margin-right: 10px;
+}
+
+.article-separator
+{
+  height: 2px;
+  background-color: #c5c5c5;
+  margin-bottom: 20px;
+}
+
+.main-content
+{
+  width: 100%;
+}
+
+.pages-list > li > a
+{
+  font-size: 20px;
+}
+
+.pages-list > li > a:hover
+{
+  color: #32A879;
+  text-decoration: none;
+}
+
+.sidebar-list > li > a
+{
+  font-size: 16px;
+}
+
+footer
+{
+  clear: both;
+  background-color: #666666;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+footer > p
+{
+  color: white;
+  font-size: 17px;
+}
+
+.search-field
+{
+  margin-left: 13px;
+  width: 93%;
+}
+
+.article-title
+{
+  cursor: pointer;
+  display: inline-block;
+}
+
+.article-title:hover
+{
+  color: #32A879;
+  text-decoration: none;
+}
+
+footer > p >  a
+{
+  -webkit-transition: opacity 500ms ease;
+  -o-transition: opacity 500ms ease;
+  transition: opacity 500ms ease;
+  color: #ffffff;
+  opacity: 0.6;
+}
+
+footer > p >  a:hover
+{
+  opacity: 1;
+  color: #ffffff;
+}
+
+@media (max-width:767px)
+{
+  .website-header
+  {
+    width: 100%;
+  }
+  .website-content
+  {
+    width: 100%;
+    margin-right: 0;
+    border-radius: 0;
+  }
+  .sidebar-content
+  {
+    width: 100%;
+  }
+}
+
+.comment-respond
+{
+  padding: 10px;
+  background-color: #f2f7f6;
+  border-radius: 5px;
+  border: 1px solid #d7ebe7;
+  margin-bottom: 20px;
+}
+
+.comment-reply-title
+{
+  margin-top: 0;
+  color: #7e7e7e;
+}
+
+.comment-notes
+{
+  color: #939393;
+}
+
+code {
+  white-space: inherit;
+}
+
+.vsmall
+{
+  font-size: 70%;
+}
+
+.comment-body p
+{
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+
+.reply
+{
+  margin-left: 15px;
+}
+
+.comment-body
+{
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.comments .children {
+  list-style: none;
+}
+
+.tagcloud-block
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 50%;
+}
+
+@media (max-width:767px)
+{
+  .tagcloud-block
+  {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width:350px)
+{
+  .tagcloud-block
+  {
+    width: 100%;
+  }
+}
+
+.search-result
+{
+  padding-left: 15px;
+}
+
+
+.posts-nav {
+  margin-bottom: 50px;
+}
