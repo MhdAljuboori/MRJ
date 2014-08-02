@@ -24,6 +24,13 @@
 
   <div class="article-separator"></div>
 
+  <?php if (get_the_tag_list()) : ?>
+    <h4><?php echo __( 'Tags:', 'mrj' ); ?></h4>
+    <?php echo get_the_tag_list('<ul class="list-unstyled tags-list"><li>','</li><li>','</li></ul>'); ?>
+  <?php endif; ?>
+
+  <div class="article-separator"></div>
+
   <?php comments_template(); ?>
 
   <?php

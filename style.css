@@ -271,7 +271,19 @@ code {
   padding-left: 15px;
 }
 
-
 .posts-nav {
   margin-bottom: 50px;
+}
+
+.tags-list {
+  font-size: 16px;
+}
+
+.tags-list > li {
+  display: inline;
+  margin-right: 50px;
+}
+
+ul.tags-list > li:first-child {
+  margin-left: 10px;
 }
