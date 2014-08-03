@@ -9,7 +9,7 @@
   <h1><?php the_title(); ?></h1>
   <div class="article-footer">
     <?php edit_post_link( __( 'Edit', 'mrj' )); ?>
-    <a href="#comments"><?php printf ( __( 'Comment', 'mrj' ) ); ?> </a>
+    <a href="#respond"><?php printf ( __( 'Comment', 'mrj' ) ); ?> </a>
   </div>
   <?php if (has_post_thumbnail() ): ?>
     <?php
