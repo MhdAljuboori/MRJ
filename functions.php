@@ -201,17 +201,12 @@
 
   }
 
-  function mrj_enqueue_comment_reply() {
+  function mrj_scripts() {
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
-      //wp_enqueue_script( 'comment-reply' );
-
-      //TODO Change me
-      ?>
-      <script type="text/javascript" src="<?php printf ( get_template_directory_uri() ); ?>../../../../wp-includes/js/comment-reply.min.js"></script>
-      <?php
+      wp_enqueue_script( 'comment-reply' );
     }
   }
 
-  add_action( 'wp_enqueue_scripts', 'mrj_enqueue_comment_reply' );
+  add_action( 'wp_enqueue_scripts', 'mrj_scripts' );
 ?>
 
