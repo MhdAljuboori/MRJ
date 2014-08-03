@@ -146,7 +146,7 @@
   	    <div id="div-comment-<?php comment_ID() ?>" class="comment-body">
 
     	    <div class="comment-author vcard">
-          	<?php if ( $args['avatar_size'] != 0 ) printf ( get_avatar( $comment, $args['avatar_size'] ) ); ?>
+          	<?php if ( $args['avatar_size'] != 0 ) echo get_avatar( $comment, $args['avatar_size'] ); ?>
           	<?php printf( __( '<cite class="author-name">%s</cite>:', 'mrj' ), get_comment_author_link() ); ?>
           	<small class="vsmall">
           	  <a href="<?php printf ( htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ); ?>">
