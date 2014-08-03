@@ -84,7 +84,7 @@
       'id_submit'         => 'submit',
       'title_reply'       => '',
       'title_reply'       => __( 'Leave a Comment', 'mrj' ),
-      'title_reply_to'    => __( 'Leave a Reply to %s', 'mrj' ),
+      'title_reply_to'    => '',
       'cancel_reply_link' => __( 'Cancel Reply', 'mrj' ),
       'label_submit'      => __( 'Post Comment', 'mrj' ),
 
