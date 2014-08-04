@@ -63,6 +63,10 @@ article h1
   font-family: Droid Arabic Kufi;
 }
 
+.posts-nav > div {
+  direction: ltr;
+}
+
 ul.tags-list > li:first-child {
   margin-left: 25px;
   margin-right: 10px;
