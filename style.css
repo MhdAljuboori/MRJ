@@ -281,7 +281,8 @@ code {
 
 .tags-list > li {
   display: inline;
-  margin-right: 50px;
+  margin-right: 25px;
+  margin-right: 25px;
 }
 
 ul.tags-list > li:first-child {

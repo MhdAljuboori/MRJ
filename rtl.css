@@ -63,12 +63,18 @@ article h1
     font-family: Droid Arabic Kufi;
 }
 
-.tags-list > li {
-  margin-right: 0;
-  margin-left: 50px;
+ul.tags-list > li:first-child {
+  margin-left: 25px;
+  margin-right: 10px;
 }
 
-ul.tags-list > li:first-child {
-  margin-left: 0;
-  margin-right: 10px;
+
+/**
+*
+* Bootstrap Customization for rtl
+*
+**/
+
+.list-unstyled {
+  padding-right: 0;
 }
