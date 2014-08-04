@@ -26,7 +26,7 @@
 
   <?php if (get_the_tag_list()) : ?>
     <h4><?php printf ( __( 'Tags:', 'mrj' ) ); ?></h4>
-    <?php printf ( get_the_tag_list('<ul class="list-unstyled tags-list"><li>','</li><li>','</li></ul>') ); ?>
+    <?php echo get_the_tag_list('<ul class="list-unstyled tags-list"><li>','</li><li>','</li></ul>'); ?>
   <?php endif; ?>
 
   <div class="article-separator"></div>
