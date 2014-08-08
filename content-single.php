@@ -5,6 +5,12 @@
  */
 ?>
 
+<div class="top-article-nav">
+  <a href="#">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <?php printf( __('Home', 'mrj' ) ); ?>
+  </a>
+</div>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
   <h1><?php the_title(); ?></h1>
   <div class="article-footer">

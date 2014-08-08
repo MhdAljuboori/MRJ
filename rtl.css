@@ -90,3 +90,11 @@ ul.tags-list > li:first-child {
 .pull-left {
   float: right !important;
 }
+
+.glyphicon-chevron-right:before {
+  content: "\e079";
+}
+
+.glyphicon-chevron-left:before {
+  content: "\e080";
+}
