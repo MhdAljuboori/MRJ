@@ -1,37 +1,53 @@
-<?php load_theme_textdomain( 'mrj', get_template_directory() . '/languages' ); ?>
-
 <?php
 
-  /**
-   * Add default posts and comments RSS feed links to head
-   */
-  add_theme_support( 'automatic-feed-links' );
+  function mrj_theme_support() {
+    /**
+     * Add default posts and comments RSS feed links to head
+     */
+    add_theme_support( 'automatic-feed-links' );
 
-  /**
-   * Enable Custom Header
-   */
-  $args = array(
-  	'width'         => 200,
-  	'height'        => 200,
-  	'default-image' => get_template_directory_uri() . '/images/header.jpg',
-  	'uploads'       => true,
-  );
-  add_theme_support( 'custom-header', $args );
+    /**
+     * Enable Custom Header
+     */
+    $args = array(
+      'width'         => 200,
+      'height'        => 200,
+      'default-image' => get_template_directory_uri() . '/images/header.jpg',
+      'uploads'       => true,
+    );
+    add_theme_support( 'custom-header', $args );
 
-  // Enable support for HTML5 markup.
-  add_theme_support(
-  	'html5', array(
-  		'comment-list',
-  		'search-form',
-  		'comment-form',
-  		'gallery',
-  	)
-  );
+    // Enable support for HTML5 markup.
+    add_theme_support(
+      'html5', array(
+        'comment-list',
+        'search-form',
+        'comment-form',
+        'gallery',
+      )
+    );
 
-  /**
-   * Enable Post Thumbnails
-   */
-  add_theme_support( 'post-thumbnails' );
+    /**
+     * Enable Post Thumbnails
+     */
+    add_theme_support( 'post-thumbnails' );
+
+  }
+
+  function mrj_init() {
+
+    /**
+     * Custom template tags for this theme.
+     */
+    require ( get_template_directory() . '/inc/template-tags.php' );
+
+    load_theme_textdomain( 'mrj', get_template_directory() . '/languages' );
+
+    mrj_theme_support();
+
+  }
+
+  add_action( 'after_setup_theme', 'mrj_init' );
 
   /**
    * Returns the proper schema type

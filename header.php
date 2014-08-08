@@ -39,24 +39,9 @@
 <body>
   <section class="main-section">
     <header class="website-header">
-      <?php if ( get_header_image() ) : ?>
-        <a href="<?php printf ( get_option('home') ); ?>">
-          <img class="img-circle website-cover" src="<?php printf ( esc_url( get_header_image() ) ); ?>" alt="<?php printf ( esc_attr( get_bloginfo( 'name', 'display' ) ) ); ?>" width="200">
-        </a>
-		  <?php endif; ?>
-
-
-      <a href="<?php printf ( get_option('home') ); ?>">
-        <h1 class="website-name">
-          <?php printf ( get_bloginfo( 'name', 'display' ) ); ?>
-        </h1>
-      </a>
-      <p class="website-description">
-        <?php printf ( esc_attr( get_bloginfo( 'description', 'display' ) ) ); ?>
-      </p>
-
-      <ul class="list-unstyled pages-list">
-        <?php wp_list_pages('title_li='); ?>
-      </ul>
-      <?php get_search_form(); ?>
+      <?php if ( is_single() ) : ?>
+        <?php mrj_auther_card_in_single_page(); ?>
+      <?php else : ?>
+        <?php mrj_main_header(); ?>
+      <?php endif; ?>
     </header>
