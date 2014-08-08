@@ -6,7 +6,7 @@
 ?>
 
 <div class="top-article-nav">
-  <a href="#">
+  <a href="<?php printf ( get_option('home') ); ?>">
     <span class="glyphicon glyphicon-chevron-left"></span>
     <?php printf( __('Home', 'mrj' ) ); ?>
   </a>
