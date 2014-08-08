@@ -206,8 +206,8 @@
   if (function_exists('register_sidebar')) {
 
   	register_sidebar(array(
-  		'name' => 'Widgetized Area',
-  		'id'   => 'widgetized-area',
+  		'name' => 'Home Sidebar',
+  		'id'   => 'home-widget',
   		'description'   => 'This is a widgetized area.',
   		'before_widget' => '<div id="%1$s" class="widget %2$s">',
   		'after_widget'  => '</div>',
@@ -215,6 +215,25 @@
   		'after_title'   => '</h3>'
   	));
 
+    register_sidebar(array(
+      'name' => 'Article Sidebar',
+      'id'   => 'article-widget',
+      'description'   => 'Sidebar you can see when you open any article.',
+      'before_widget' => '<div id="%1$s" class="widget %2$s">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3>',
+      'after_title'   => '</h3>'
+    ));
+
+    register_sidebar(array(
+      'name' => 'Page Sidebar',
+      'id'   => 'page-widget',
+      'description'   => 'Sidebar you see when you open any page.',
+      'before_widget' => '<div id="%1$s" class="widget %2$s">',
+      'after_widget'  => '</div>',
+      'before_title'  => '<h3>',
+      'after_title'   => '</h3>'
+    ));
   }
 
   function mrj_scripts() {

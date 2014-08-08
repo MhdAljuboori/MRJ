@@ -29,6 +29,7 @@ get_header(); ?>
         <?php endif; ?>
       </div>
 
+      <? get_sidebar(); ?>
     </div>
 
   </section>
