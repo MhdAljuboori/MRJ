@@ -42,6 +42,11 @@ body
   font-family: Droid Arabic Kufi;
 }
 
+.search-field {
+  margin-left: 0;
+  margin-right: 13px;
+}
+
 .article-title
 {
   font-family: Droid Arabic Kufi;
