@@ -108,6 +108,7 @@ a:hover
   height: 2px;
   background-color: #c5c5c5;
   margin-bottom: 20px;
+  clear: both;
 }
 
 .main-content
