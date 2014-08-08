@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: mrj\n"
-"POT-Creation-Date: 2014-08-02 19:22+0200\n"
-"PO-Revision-Date: 2014-08-02 19:24+0200\n"
+"POT-Creation-Date: 2014-08-08 15:46+0200\n"
+"PO-Revision-Date: 2014-08-08 15:46+0200\n"
 "Last-Translator: Mohammed Aljuboori <mhdaljobory@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -35,41 +35,36 @@ msgid "Categories:"
 msgstr "Categories:"
 
 #: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-page.php:11
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:11
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:17
 #: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:22
 msgid "Edit"
 msgstr "Edit"
 
 #: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-page.php:12
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:91
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:12
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:107
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:18
 #: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:23
 msgid "Comment"
 msgstr "Comment"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:86
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:102
 msgid "Leave a Comment"
 msgstr "Leave a Comment"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:87
-#, php-format
-msgid "Leave a Reply to %s"
-msgstr "Leave a Reply to %s"
-
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:88
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:104
 msgid "Cancel Reply"
 msgstr "Cancel Reply"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:89
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:105
 msgid "Post Comment"
 msgstr "Post Comment"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:97
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:113
 #, php-format
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "You must be <a href=\"%s\">logged in</a> to post a comment."
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:103
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:119
 #, php-format
 msgid ""
 "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
@@ -78,49 +73,49 @@ msgstr ""
 "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
 "this account\">Log out?</a>"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:117
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:133
 msgid "Name"
 msgstr "Name"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:120
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:136
 msgid "Your Name"
 msgstr "Your Name"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:123
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:139
 msgid "Email"
 msgstr "Email"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:126
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:142
 msgid "Your Email"
 msgstr "Your Email"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:130
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:146
 msgid "Website"
 msgstr "Website"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:132
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:148
 msgid "Your Website"
 msgstr "Your Website"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:150
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:166
 #, php-format
 msgid "<cite class=\"author-name\">%s</cite>:"
 msgstr "<cite class=\"author-name\">%s</cite>:"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:155
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:171
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s at %2$s"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:158
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:174
 msgid "(Edit)"
 msgstr "(Edit)"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:162
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:178
 msgid "Your comment is awaiting moderation."
 msgstr "Your comment is awaiting moderation."
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:175
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/functions.php:191
 msgid "Leave a Reply"
 msgstr "Leave a Reply"
 
@@ -136,7 +131,12 @@ msgstr "Search for:"
 msgid "empowered by"
 msgstr "empowered by"
 
-#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:28
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:11
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/inc/template-tags.php:30
+msgid "Home"
+msgstr "Home"
+
+#: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content-single.php:34
 msgid "Tags:"
 msgstr "Tags:"
 
@@ -151,3 +151,6 @@ msgstr "1 Comment"
 #: /opt/lampp/htdocs/mrj/wp-content/themes/mrj/content.php:23
 msgid "% Comments"
 msgstr "% Comments"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Leave a Reply to %s"
